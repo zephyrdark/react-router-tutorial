@@ -1,6 +1,6 @@
 {
   "name": "test-page",
-  "homepage": "https://zephyrdark.github.io/zephyrdark.github.io",
+  "homepage": "https://zephyrdark.github.io/react-router-tutorial",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,12 +9,11 @@
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@react-router/node": "^7.1.5",
     "@react-router/serve": "^7.1.5",
-    "gh-pages": "^6.3.0",
     "isbot": "^5.1.17",
     "match-sorter": "^8.0.0",
     "react": "^19.0.0",
@@ -33,6 +32,7 @@
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.2",
     "vite": "^5.4.11",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "gh-pages": "^6.3.0"
   }
 }
